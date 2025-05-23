@@ -5,6 +5,6 @@ if(args <= 2 ){
 }else if(args === 3 ){
     console.log("Argument found")
 }else{
-    console.log("argument found")
+    console.log("Arguments found")
 }
 
