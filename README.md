@@ -80,6 +80,30 @@ Result: Argument found
 When the script is run with Node.js:$ node 2-arguments.js Best school
 Result: Argument found
 
+#Project: 3-value_argument.js
+
+## Task Description
+
+    Write a script that prints the first argument passed to it:
+
+    ### Requirement
+
+    If no arguments are passed to the script, print “No argument”
+        You must use console.log(...) to print all output
+        You are not allowed to use var
+        You are not allowed to use length
+
+    ##### Example Output
+
+    When the script is run with node 3-value_argument.js
+    Result: No argument
+
+    When the script is run with node 3-value_argument.js School
+    Result: School
+
+    When the script is run with node 3-value_argument.js School Time
+    Result: School
+
 #Project: JS-Fundamentals
 
 ## Task Description
