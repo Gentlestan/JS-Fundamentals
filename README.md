@@ -1,6 +1,6 @@
 # JavaScript Fundamentals - Week 3 This repository contains beginner-level JavaScript scripts as part of the **ALX Front-End Curriculum - Week 3**.
 
-# Project: 0-javascript_is_amazing.js
+# Project0: 0-javascript_is_amazing.js
 
 ## Task Description
 
@@ -21,7 +21,7 @@ $ node 0-javascript_is_amazing.js
 
 Result: JavaScript is amazing
 
-# Project: 1-multi_languages.js
+# Project1: 1-multi_languages.js
 
 ## Task Description
 
@@ -56,7 +56,7 @@ C is fun
 Python is cool
 JavaScript is amazing
 
-#Project: 2-arguments.js
+#Project2: 2-arguments.js
 ##Task Description:
 Write a script that prints a message depending of the number of arguments passed:
 
@@ -80,7 +80,7 @@ Result: Argument found
 When the script is run with Node.js:$ node 2-arguments.js Best school
 Result: Argument found
 
-#Project: 3-value_argument.js
+#Project3: 3-value_argument.js
 
 ## Task Description
 
@@ -104,7 +104,7 @@ Result: Argument found
     When the script is run with node 3-value_argument.js School Time
     Result: School
 
-#Project: JS-Fundamentals
+#Project4: JS-Fundamentals
 
 ## Task Description
 
@@ -125,6 +125,36 @@ Result: Argument found
 
         When the script is run with Node.js:$ node 4-concat.js c
         Result c is undefined
+
+# Project5: 5-to_integer.js
+
+## Task Description
+
+    Write a script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer:
+
+### Requirement
+
+    If the argument can’t be converted to an integer, print “Not a number”
+    You must use console.log(...) to print all output
+    You are not allowed to use var
+    You are not allowed to use try/catch
+
+##### Example Output
+
+        When the script is run with Node 5-to_integer.js
+        Result: Not a number
+
+        When the script is run with Node 5-to_integer.js 89
+        Result: My number: 89
+
+        When the script is run with Node 5-to_integer.js "89"
+        Result: My number: 89
+
+        When the script is run with Node 5-to_integer.js 89.99
+        Result: My number: 89
+
+        When the script is run with Node 5-to_integer.js School
+        Result: Not a number
 
 Author
 This project was completed as part of the ALX Software Engineering Program.
