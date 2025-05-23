@@ -156,5 +156,29 @@ Result: Argument found
         When the script is run with Node 5-to_integer.js School
         Result: Not a number
 
+# Project6: 6-multi_languages_loop.js
+
+## Task Description
+
+    Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
+
+### Requirement
+
+        The first line: “C is fun”
+        The second line: “Python is cool”
+        The third line: “JavaScript is amazing”
+        You must use console.log(...) to print all output
+        You are not allowed to use var
+        You are not allowed to use any if/else statement
+        You can use only one console.log
+        You must use a loop (while, for, etc.)
+
+##### Example Output
+
+        When the script is run with Node 6-multi_languages_loop.js
+        Result: C is fun
+                Python is cool
+                JavaScript is amazing
+
 Author
 This project was completed as part of the ALX Software Engineering Program.
