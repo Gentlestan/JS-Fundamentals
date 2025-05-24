@@ -1,5 +1,5 @@
 const arg = process.argv[2]
-const count = parseFloat(arg)
+const count = parseFloat(arg,10)
 
 if (isNaN(count)){
     console.log("Missing number of occurrences")
