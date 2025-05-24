@@ -6,7 +6,7 @@ if (isNaN(count) || count <= 0){
 } else {
     let output = ""
     for (let i = 0; i < count; i++){
-        output +=  + "C is fun"
+        output += "C is fun"
     }
     console.log(output.trim())
 }
