@@ -8,5 +8,5 @@ if (isNaN(count) || count <= 0){
     for (let i = 0; i < count; i++){
         output += "C is fun"
     }
-    console.log(output.trim())
+    console.log(output)
 }
